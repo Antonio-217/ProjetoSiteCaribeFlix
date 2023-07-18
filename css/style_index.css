@@ -1,0 +1,75 @@
+@font-face {
+    font-family: fonte;
+    src: url(../fontes/MADEOkineSansPERSONALUSE-Medium.otf);
+}
+
+.cabecalho{
+    background-color: rgb(19, 19, 19);
+    width: 1350px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo{
+    font-family: fonte;
+    color: white;
+    font-size: 70px;
+    margin-top: 55px;
+    text-align: center;
+
+}
+
+.menu{
+    background-color: rgb(158, 0, 0);
+    width: 1350px;
+    height: 50px;
+}
+
+#detalhe{
+    background-color: rgb(199, 146, 0);
+    width: 1350px;
+    height: 5px;
+}
+
+ul#menu li {
+   display: inline; 
+}
+
+ul#menu li a {
+    font-family: fonte;
+    background-color: rgb(158, 0, 0);
+    font-weight: bolder; /* para negrito; */
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    opacity: 1;
+    margin-left: 100px;  
+}
+
+ul#menu li a:hover {
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: fonte;
+}
+
+#div1{
+    margin-left: -330px;
+    margin-right: auto;
+    width: 140%;
+    text-align: center;
+}  
+
+#logo{
+    width: 200px;
+    height: 170px;
+    margin-bottom: 32px;
+}
+
+iframe{
+    width: 1300px;
+    height: 750px;
+    margin-left: 20px;
+}
